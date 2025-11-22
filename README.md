@@ -16,5 +16,5 @@ A youtube video describing the original version can be found at:
 
 ## Screenshot of English Version
 
-![](img/screenshot.png)
+![](streamlit_test/img/screenshot.png)
 
