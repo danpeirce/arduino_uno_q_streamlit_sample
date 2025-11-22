@@ -1,4 +1,8 @@
-# Streamlit Example on a Arduino Uno Q
+# 😀 streamlit_test
+
+### Description
+
+#### Streamlit Example on a Arduino Uno Q
 
 The Streamlit Brick on the Arduino Uno Q provides a method to create an interactive Web interface 
 without writing any javascript code. On the date this readme file was created the only example 
@@ -14,7 +18,7 @@ A youtube video describing the original version can be found at:
 
 * [youtube video of Streamlit Test](https://youtu.be/8T2ae1MQc5w?si=2i5i84eUZvMsroxJ)
 
-## Screenshot of English Version
+##### Screenshot of English Version
 
 ![](img/screenshot.png)
 
