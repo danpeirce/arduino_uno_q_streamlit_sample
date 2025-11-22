@@ -1,23 +1,23 @@
 from arduino.app_bricks.streamlit_ui import st
 from arduino.app_utils import *
 
-st.header("Streamlitのサンプル")
+st.header("Streamlit Example")
 image = st.radio(
-    "表示するイメージを選択してください",
+    "Radio Button Options",
     ["clear", "gradation", "logo"],
     captions = [
-        "表示を消す",
-        "グラデーション",
-        "ロゴ"
+        "Clear LED Display",
+        "Show LED Gradient",
+        "Show Arduino Loco"
     ]
 )
 
 if image == "clear":
     Bridge.call("clear_led")
-    st.write("表示を消しました")
+    st.write("All LEDs Off")
 elif image == "gradation":
     Bridge.call("show_gradation")
-    st.write("グラデーションを表示しました")
+    st.write("Gradient Displayed")
 elif image == "logo":
     Bridge.call("show_logo")
-    st.write("ロゴを表示しました")
+    st.write("LED Logo Displayed")
